@@ -1,7 +1,7 @@
 /*
 There are two types of data
-1)Primitive data types
-2)Non-primitive data types
+1)Primitive data types    (Stack memory)
+2)Non-primitive data types(heap memory)
 
 1) Primitive
  a) String b)boolean c)Number d)null 5)undefined 6) symbol 7)BigInt
@@ -41,5 +41,27 @@ const myFunction = function(){
     console.log("Hello World")
 }
 console.log(typeof myFunction)
+
+
+let myDept ="Computer Science"
+let myOtherDept = myDept
+myOtherDept ="BSC"
+
+console.log(myDept)
+console.log(myOtherDept)
+
+let user1={
+email : 'pandurangnagure07@gmail.com',
+upi:'123@ybl'
+}
+
+let user2=user1
+
+user2.email="xyz@gamail.com"
+
+console.log(user1.email)
+console.log(user2.email)
+
+
 
 
