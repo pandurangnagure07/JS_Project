@@ -1,2 +1,2 @@
 const number=400
-console.log(number)
+console.log(number);
